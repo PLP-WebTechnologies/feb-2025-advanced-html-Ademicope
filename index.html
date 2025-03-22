@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="list">
+        <img src="images/pexels-ella-olsson-572949-1640777.jpg" alt="food picture">
+        <h2>Classes of Food</h2>
+        <ol type="i">
+            <li>Carbohydrate</li>
+            <li>Protein</li>
+            <li>Fats and oil</li>
+            <li>Vitamins</li>
+        </ol>
+    </section>
+    <section class="contact">
+        <table>
+            <h2>Contact directory</h2>
+            <tr>
+                <th>name</th>
+                <th>mobile</th>
+                <th>email</th>
+                <th>address</th> 
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>+2349802482018</td>
+                <td>john@gmail.com</td>
+                <td>allen street</td> 
+            </tr>
+            <tr>
+                <td>Michael</td>
+                <td>+22204929212</td>
+                <td>michael@gmail.com</td>
+                <td>congo road</td> 
+            </tr>
+            <tr>
+                <td>Tina</td>
+                <td>+1205920492</td>
+                <td>tinanatinana@gmail.com</td>
+                <td>totoro road</td> 
+            </tr>
+            <tr>
+                <td>David</td>
+                <td>+3124045932</td>
+                <td>davido@gmail.com</td>
+                <td>goliath street, Jerusalem</td> 
+            </tr>
+        </table>
+    </section>
+    <section>
+        <h2>Registration Form</h2>
+        <form action="">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter your name(surname first)" required>
+                <label for="email">Email</label>
+                <input type="email" name="mail" id="mail" required>
+                <label for="pass">Password</label>
+                <input type="password" name="pass" id="pass" required>
+                <label for="gender">Male</label>
+                <input type="radio" name="gender" id="gender">
+                <label for="gender">Female</label>
+                <input type="radio" name="gender" id="gender">
+            </fieldset>
+            <fieldset>
+                <legend>Order</legend>
+                <label for="date">Date</label>
+                <input type="date" name="date" id="date">
+                <label for="order"></label>
+                <select name="order" id="order">
+                    <option value="rice">rice</option>
+                    <option value="beans">beans</option>
+                    <option value="carrot">carrot</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Review</legend>
+                <p>Are you satisfied with our services</p>
+                <label for="question">Yes</label>
+                <input type="radio" name="question" id="question">
+                <label for="question">No</label>
+                <input type="radio" name="question" id="question">
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>
